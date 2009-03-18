@@ -1,32 +1,55 @@
 = g_toggle_block
 
-* FIX (url)
+http://github.com/midas/g_toggle_block/tree/master
+
 
 == DESCRIPTION:
 
-FIX (describe your package)
+A Rails Guilded  (http://github.com/midas/guilded/tree/master) component allowing a block of markup to be shown and 
+hidden by toggling another control.
 
-== FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+== FEATURES:
 
-== SYNOPSIS:
+* Easily create a collapsible area that can be toggled using another HTML control or element.
 
-  FIX (code sample of usage)
+
+== USAGE:
+
+This is just one possible use of the toggle block control.  In this example we will be showing or hiding additional form fields 
+based on a check box being checked.
+
+  # within form ...
+
+  <%= f.check_box "user[role_ids][]", role.id, @user.roles.include?(role), {:id => "toggle-optional-fields"} %> Role with Optional Fields
+	
+  <% g_toggle_block :id => "optional-fields", :toggler_id => "toggle-cecbems-required" do %>
+    <%= f.text_field :another_field_1 %>
+		<%= f.text_field :another_field_2 %>
+		# ...
+  <% end %>
+
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* Rails >= 2.2.0
+* Guilded >= 0.1.4 (http://github.com/midas/guilded/tree/master)
+
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+  sudo gem install midas-g_toggle_block
+
+In rails environment.rb file:
+
+  config.gem 'midas-g_toggle_block', :version => "1.0.0", :lib => 'g_toggle_block', :source => 'http://gems.github.com'
+
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 C. Jason Harrelson (midas)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
