@@ -25,8 +25,8 @@ based on a check box being checked.
 	
   <% g_toggle_block :id => "optional-fields", :toggler_id => "toggle-cecbems-required" do %>
     <%= f.text_field :another_field_1 %>
-		<%= f.text_field :another_field_2 %>
-		# ...
+    <%= f.text_field :another_field_2 %>
+    # ...
   <% end %>
 
 
@@ -42,7 +42,7 @@ based on a check box being checked.
 
 In rails environment.rb file:
 
-  config.gem 'midas-g_toggle_block', :version => "1.0.0", :lib => 'g_toggle_block', :source => 'http://gems.github.com'
+  config.gem 'midas-g_toggle_block', :version => "1.0.1", :lib => 'g_toggle_block', :source => 'http://gems.github.com'
 
 
 == LICENSE:

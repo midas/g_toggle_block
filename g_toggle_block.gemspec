@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{g_toggle_block}
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["C. Jason Harrelson (midas)"]
-  s.date = %q{2009-03-18}
+  s.date = %q{2009-03-21}
   s.description = %q{A Rails Guilded  (http://github.com/midas/guilded/tree/master) component allowing a block of markup to be shown and  hidden by toggling another control.}
   s.email = ["jason@lookforwardenterprises.com"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc"]
-  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/g_toggle_block.rb", "lib/g_toggle_block/view_helpers.rb", "rails_generators/toggle_block_assets/templates/guilded.toggle_block.js", "rails_generators/toggle_block_assets/templates/guilded.toggle_block.min.js", "rails_generators/toggle_block_assets/toggle_block_assets_generator.rb", "script/console", "script/destroy", "script/generate", "spec/g_toggle_block_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "tasks/rspec.rake"]
+  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "g_toggle_block.gemspec", "lib/g_toggle_block.rb", "lib/g_toggle_block/view_helpers.rb", "rails_generators/toggle_block_assets/templates/guilded.toggle_block.js", "rails_generators/toggle_block_assets/templates/guilded.toggle_block.min.js", "rails_generators/toggle_block_assets/toggle_block_assets_generator.rb", "script/console", "script/destroy", "script/generate", "spec/g_toggle_block_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", "tasks/rspec.rake"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/midas/g_toggle_block/tree/master}
   s.post_install_message = %q{PostInstall.txt}
