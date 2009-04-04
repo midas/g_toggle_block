@@ -44,6 +44,10 @@ In rails environment.rb file:
 
   config.gem 'midas-g_toggle_block', :version => "1.0.1", :lib => 'g_toggle_block', :source => 'http://gems.github.com'
 
+Generate:
+
+  script/generate toggle_block_assets
+
 
 == LICENSE:
 
