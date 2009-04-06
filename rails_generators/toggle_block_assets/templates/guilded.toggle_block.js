@@ -1,3 +1,6 @@
+/* Guilded Toggle Block 1.0.0
+ * Copyright (c) 2009 C. Jason Harrelson (midas)
+ * Guilded Toggle Block is licensed under the terms of the MIT License */
 g.toggle = function( e )
 {  
   $j( e.data.selector ).slideToggle();
@@ -22,4 +25,3 @@ g.toggleBlockInit = function( options )
     toggleDiv.hide();
 	}
 };
-
