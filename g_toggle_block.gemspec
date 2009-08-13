@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{g_toggle_block}
-  s.version = "1.0.1"
+  s.version = "1.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["C. Jason Harrelson (midas)"]
-  s.date = %q{2009-03-21}
+  s.date = %q{2009-08-13}
   s.description = %q{A Rails Guilded  (http://github.com/midas/guilded/tree/master) component allowing a block of markup to be shown and  hidden by toggling another control.}
   s.email = ["jason@lookforwardenterprises.com"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc"]
@@ -25,18 +25,18 @@ Gem::Specification.new do |s|
     s.specification_version = 2
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<newgem>, [">= 1.2.3"])
+      s.add_development_dependency(%q<newgem>, [">= 1.3.0"])
       s.add_development_dependency(%q<rails>, [">= 2.2.0"])
       s.add_development_dependency(%q<midas-guilded>, [">= 0.1.4"])
       s.add_development_dependency(%q<hoe>, [">= 1.8.0"])
     else
-      s.add_dependency(%q<newgem>, [">= 1.2.3"])
+      s.add_dependency(%q<newgem>, [">= 1.3.0"])
       s.add_dependency(%q<rails>, [">= 2.2.0"])
       s.add_dependency(%q<midas-guilded>, [">= 0.1.4"])
       s.add_dependency(%q<hoe>, [">= 1.8.0"])
     end
   else
-    s.add_dependency(%q<newgem>, [">= 1.2.3"])
+    s.add_dependency(%q<newgem>, [">= 1.3.0"])
     s.add_dependency(%q<rails>, [">= 2.2.0"])
     s.add_dependency(%q<midas-guilded>, [">= 0.1.4"])
     s.add_dependency(%q<hoe>, [">= 1.8.0"])
