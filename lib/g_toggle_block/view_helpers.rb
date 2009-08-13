@@ -24,7 +24,7 @@ module GToggleBlock
       options.merge! :exclude_css => true
       Guilded::Guilder.instance.add( :toggle_block, options )
       # Add the HTML to the caller.
-      concat( content_tag( :div, capture( &block ), options ), block.binding ) 
+      concat( content_tag( :div, capture( &block ), options ) ) 
     end
 
   end

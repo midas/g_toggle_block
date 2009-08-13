@@ -1,3 +1,6 @@
+== 1.0.2 2009-08-13
+  Removed deprecated block.binding.
+  
 == 1.0.0 2009-03-18
 
 * Initial release

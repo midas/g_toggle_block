@@ -4,7 +4,7 @@ $:.unshift(File.dirname(__FILE__)) unless
 require 'g_toggle_block/view_helpers'
 
 module GToggleBlock
-  VERSION = '1.0.1'
+  VERSION = '1.0.2'
 end
 
 if defined? ActionView::Base
